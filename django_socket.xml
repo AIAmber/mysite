@@ -1,0 +1,8 @@
+<uwsgi>
+    <socket>120.76.145.62:8044</socket>
+    <chdir>/root/mysite</chdir>
+    <module>django_wsgi</module>
+    <master>1</master>
+    <processes>4</processes> 
+    <daemonize>/root/mysite/log/uwsgi.log</daemonize>
+</uwsgi>
